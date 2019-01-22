@@ -1,0 +1,29 @@
+body {
+    background-color: #45b7b8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border-color: grey;
+    border-width: 10px;
+    border-style: none;
+    border-top-style: dotted;
+    width: 10%;
+}
+
+p {
+    color: brown;
+    font-size: 25px;
+}
+
+.footer {
+    margin: 20px;
+}
+
+h1 {
+    color: rgb(7, 6, 66);
+}
+
+h3 {
+    color: rgb(11, 7, 228);
+}

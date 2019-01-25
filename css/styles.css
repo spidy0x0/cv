@@ -1,29 +1,75 @@
 body {
-    background-color: #45b7b8;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-hr {
-    border-color: grey;
-    border-width: 10px;
-    border-style: none;
-    border-top-style: dotted;
-    width: 10%;
-}
-
-p {
-    color: brown;
-    font-size: 25px;
-}
-
-.footer {
-    margin: 20px;
+    background-image: url("images/wallpaper.jpg");
+    position: static;
+    margin: 0;
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px
 }
 
 h1 {
-    color: rgb(7, 6, 66);
+    margin-top: 0;
+    font-family: 'Merienda One', cursive;
 }
 
-h3 {
-    color: rgb(11, 7, 228);
+.top-p {
+    font-size: 2.5rem;
+    position: relative;
+    margin-top: 0;
+}
+
+.top-container {
+    padding-top: 100px;
+    background-color: aqua;
+    position: relative;
+}
+
+.bottom-container {
+    position: relative;
+    top: 50px;
+}
+
+.bottom-container a {
+    margin-left: 20px;
+}
+
+.triangle-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0;
+    top: 0;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+}
+
+.contact-me a {
+    background-color: blue;
+    color: aquamarine;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 15%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px chartreuse;
+}
+
+.contact-me a:hover {
+    border-color: chartreuse;
+    border-width: medium;
+    animation: all 0.5s ease-in;
 }
